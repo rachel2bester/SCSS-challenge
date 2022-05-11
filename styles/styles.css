@@ -32,15 +32,15 @@
   justify-content: center;
   align-items: center;
 }
-.card__buttons-info:hover {
+.card__buttons--info:hover {
   color: #DDD;
   background-color: #222;
 }
-.card__buttons-book {
+.card__buttons--book {
   color: #DDD;
   background-color: #222;
 }
-.card__buttons-book:hover {
+.card__buttons--book:hover {
   color: #222;
   background-color: #DDD;
 }
