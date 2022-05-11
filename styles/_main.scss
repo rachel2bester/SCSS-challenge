@@ -2,21 +2,11 @@
 @use "./variables" as *;
 
 main {
-    width: 60vw;
-    border: solid black 2px;
-    font-family: $primary-font;
-
-    img{
-        width: 100%;
-    }
-    h1 {
-        margin: 40px;
-        font-size: 3em;
-    }
-    p {
-        margin: 40px;
-        font-size: 1em;
-    }
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: $black;
+    background-color: $background-color;
     
-
 }

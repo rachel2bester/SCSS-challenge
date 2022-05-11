@@ -1,43 +1,54 @@
-main {
-  width: 60vw;
-  border: solid black 2px;
+.card {
+  width: 400px;
+  border: solid #222 2px;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #DDD;
 }
-main img {
+.card img {
   width: 100%;
 }
-main h1 {
+.card h1 {
   margin: 40px;
   font-size: 3em;
 }
-main p {
+.card p {
   margin: 40px;
   font-size: 1em;
+  opacity: 80%;
 }
 
-.buttons {
+.card__buttons {
   width: 50%;
   height: 50px;
   display: flex;
   justify-content: space-between;
   margin: 40px;
 }
-.buttons a {
+.card__buttons * {
   width: 80px;
-  border: solid black 1px;
+  border: solid #222 1px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.buttons .info:hover {
-  color: white;
-  background-color: black;
+.card__buttons__info:hover {
+  color: #DDD;
+  background-color: #222;
 }
-.buttons .book {
-  color: white;
-  background-color: black;
+.card__buttons__book {
+  color: #DDD;
+  background-color: #222;
 }
-.buttons .book:hover {
-  color: black;
-  background-color: white;
+.card__buttons__book:hover {
+  color: #222;
+  background-color: #DDD;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  color: #222;
+  background-color: rgb(20, 25, 97);
 }/*# sourceMappingURL=styles.css.map */
