@@ -1,0 +1,36 @@
+@use "./variables" as *;
+@use "./mixin" as *;
+
+
+.buttons {
+
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+
+    a {
+        width: 80px;
+        border: solid black 1px;
+        @include flexCenter();
+    }
+
+    .info {
+        
+        &:hover {
+            color: white;
+            background-color: black;
+        }
+    }
+
+    .book {
+        color: white;
+        background-color: black;
+        &:hover {
+            color: black;
+            background-color: white;
+        }
+    }
+
+}

@@ -1,2 +1,22 @@
 @use "./mixin" as *;
 @use "./variables" as *;
+
+main {
+    width: 60vw;
+    border: solid black 2px;
+    font-family: $primary-font;
+
+    img{
+        width: 100%;
+    }
+    h1 {
+        margin: 40px;
+        font-size: 3em;
+    }
+    p {
+        margin: 40px;
+        font-size: 1em;
+    }
+    
+
+}

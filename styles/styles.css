@@ -1,0 +1,43 @@
+main {
+  width: 60vw;
+  border: solid black 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main img {
+  width: 100%;
+}
+main h1 {
+  margin: 40px;
+  font-size: 3em;
+}
+main p {
+  margin: 40px;
+  font-size: 1em;
+}
+
+.buttons {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.buttons a {
+  width: 80px;
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons .info:hover {
+  color: white;
+  background-color: black;
+}
+.buttons .book {
+  color: white;
+  background-color: black;
+}
+.buttons .book:hover {
+  color: black;
+  background-color: white;
+}/*# sourceMappingURL=styles.css.map */
