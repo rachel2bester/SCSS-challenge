@@ -3,6 +3,7 @@
   border: solid #222 2px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #DDD;
+  margin: 10px;
 }
 .card img {
   width: 100%;
@@ -31,15 +32,15 @@
   justify-content: center;
   align-items: center;
 }
-.card__buttons__info:hover {
+.card__buttons-info:hover {
   color: #DDD;
   background-color: #222;
 }
-.card__buttons__book {
+.card__buttons-book {
   color: #DDD;
   background-color: #222;
 }
-.card__buttons__book:hover {
+.card__buttons-book:hover {
   color: #222;
   background-color: #DDD;
 }

@@ -16,14 +16,14 @@
         @include flexCenter();
     }
 
-    &__info {
+    &-info {
         &:hover {
             color: $white;
             background-color: $black;
         }
     }
 
-    &__book {
+    &-book {
         color: $white;
         background-color: $black;
         &:hover {
